@@ -1,0 +1,112 @@
+﻿1 	tcpmux 	TCP-порт службы мультиплексора
+5 	rje 	Ввод удалённого задания
+7 	echo 	Служба Echo
+9 	discard 	Служба-пустышка для проверки соединения
+11 	systat 	Служба системного состояния, показывающая подключенные порты
+13 	daytime 	Возвращает запрашивающему узлу дату и время
+17 	qotd 	Выдаёт подключенному узлу фразу дня
+18 	msp 	Протокол отправки сообщений
+19 	chargen 	Служба, генерирующая символы; посылает бесконечный поток символов
+20 	ftp-data 	Порт данных FTP
+21 	ftp 	Порт протокола передачи файлов (File Transfer Protocol, FTP); иногда используется протоколом файловой службы (File Service Protocol, FSP)
+22 	ssh 	Служба Безопасной ОБолочки (Secure SHell, SSH)
+23 	telnet 	Служба Telnet
+25 	smtp 	Протокол простой передачи почты (Simple Mail Transfer Protocol, SMTP)
+37 	time 	Протокол времени
+39 	rlp 	Протокол нахождения ресурсов
+42 	nameserver 	Служба имён Интернета
+43 	nicname 	Служба каталога WHOIS
+49 	tacacs 	Система управления доступом к контроллеру терминального доступа (Terminal Access Controller Access Control System) для проверки подлинности и подключения на базе TCP/IP
+50 	re-mail-ck 	Протокол удалённой проверки почты (Remote Mail Checking Protocol)
+53 	domain 	Службы доменных имён (такие как BIND)
+63 	whois++ 	WHOIS++, расширенные службы WHOIS
+67 	bootps 	Службы протокола загрузки (Bootstrap Protocol, BOOTP); также используется службами протокола динамической конфигурации узлов (Dynamic Host Configuration Protocol, DHCP)
+68 	bootpc 	Клиенты BOOTP; также используется клиентами DHCP
+69 	tftp 	Простой протокол передачи файлов (Trivial File Transfer Protocol, TFTP)
+70 	gopher 	Служба поиска и получения документов в Интернете
+71 	netrjs-1 	Служба выполнения удалённых заданий
+72 	netrjs-2 	Служба выполнения удалённых заданий
+73 	netrjs-3 	Служба выполнения удалённых заданий
+73 	netrjs-4 	Служба выполнения удалённых заданий
+79 	finger 	Служба finger, предоставляющая контактную информацию о пользователе
+80 	http 	Протокол передачи гипертекста (HyperText Transfer Protocol, HTTP) для служб всемирной паутины (World Wide Web, WWW)
+88 	kerberos 	Сетевая система проверки подлинности Kerberos
+95 	supdup 	Расширение протокола Telnet
+101 	hostname 	Службы Hostname на компьютерах SRI-NIC
+102 	iso-tsap 	Сетевые приложения окружения разработчика (ISO Development Environment, ISODE)
+105 	csnet-ns 	Сервер имён почтового ящика, также используется сервером имён CSO
+107 	rtelnet 	Удалённый Telnet
+109 	pop2 	Протокол почтового отделения (Post Office Protocol) версии 2
+110 	pop3 	Протокол почтового отделения (Post Office Protocol) версии 3
+111 	sunrpc 	Протокол удалённого вызова процедур (Remote Procedure Call, RPC) для удалённого запуска команд, используется сетевой файловой системой (Network Filesystem, NFS)
+113 	auth 	Протоколы проверки подлинности
+115 	sftp 	Службы протокола безопасной передачи файлов (Secure File Transfer Protocol, SFTP)
+117 	uucp-path 	Службы протокола копирования UNIX-UNIX (Unix-to-Unix Copy Protocol, UUCP)
+119 	nntp 	Протокол передачи сетевых новостей (Network News Transfer Protocol, NNTP) для систем обсуждений USENET
+123 	ntp 	Сетевой протокол времени (Network Time Protocol, NTP)
+137 	netbios-ns 	Служба имён NETBIOS, используемая в Red Hat Enterprise Linux службой Samba
+138 	netbios-dgm 	Служба датаграмм NETBIOS, используемая в Red Hat Enterprise Linux службой Samba
+139 	netbios-ssn 	Служба сеансов NETBIOS, используемая в Red Hat Enterprise Linux службой Samba
+143 	imap 	Протокол доступа к сообщениям через Интернет (Internet Message Access Protocol, IMAP)
+161 	snmp 	Простой протокол управления сетью (Simple Network Management Protocol, SNMP)
+162 	snmptrap 	Ловушки для SNMP
+163 	cmip-man 	Стандартный протокол информации для управления (Common Management Information Protocol, CMIP)
+164 	cmip-agent 	Стандартный протокол информации для управления (Common Management Information Protocol, CMIP)
+174 	mailq 	Очередь почтового транспорта MAILQ
+177 	xdmcp 	Протокол управления дисплеем X (X Display Manager Control Protocol, XDMCP)
+178 	nextstep 	Оконный сервер NeXTStep
+179 	bgp 	Протокол пограничных шлюзов (Border Gateway Protocol)
+191 	prospero 	Службы распределённой файловой системы Prospero
+194 	irc 	Служба обмена сообщениями (Internet Relay Chat, IRC)
+199 	smux 	UNIX-мультиплексор SNMP
+201 	at-rtmp 	Маршрутизация AppleTalk
+202 	at-nbp 	Привязка имён AppleTalk
+204 	at-echo 	Эхо AppleTalk
+206 	at-zis 	Информация о зоне AppleTalk
+209 	qmtp 	Протокол быстрой передачи почты (Quick Mail Transfer Protocol, QMTP)
+210 	z39.50 	База данных NISO Z39.50
+213 	ipx 	Межсетевой обмен пакетами (Internetwork Packet Exchange, IPX), протокол обмена датаграммами, обычно используемый в окружении Novell Netware
+220 	imap3 	Протокол доступа к сообщениям через Интернет (Internet Message Access Protocol) версии 3
+245 	link 	Служба LINK / 3-DNS iQuery
+347 	fatserv 	Сервер управления лентами и файлами FATMEN
+363 	rsvp_tunnel 	Туннель RSVP
+369 	rpc2portmap 	Сопоставитель портов файлов системы Coda
+370 	codaauth2 	Службы проверки подлинности файловой системы Coda
+372 	ulistproc 	Служба UNIX LISTSERV
+389 	ldap 	Упрощённый протокол доступа к каталогу (Lightweight Directory Access Protocol, LDAP)
+427 	svrloc 	Протокол нахождения службы (Service Location Protocol, SLP)
+434 	mobileip-agent 	Агент мобильного IP
+435 	mobilip-mn 	Диспетчер мобильного IP
+443 	https 	Протокол защищённой передачи гипертекста (Hypertext Transfer Protocol, HTTP)
+444 	snpp 	Протокол протокол передачи сообщений на пейджер (Simple Network Paging Protocol)
+445 	microsoft-ds 	Протокол SMB поверх TCP/IP
+464 	kpasswd 	Службы смены пароля и ключа Kerberos
+468 	photuris 	Протокол управления ключом сеанса Photuris
+487 	saft 	Протокол простой асинхронной передачи файлов (Simple Asynchronous File Transfer, SAFT)
+488 	gss-http 	Стандартные службы безопасности (Generic Security Services, GSS) для HTTP
+496 	pim-rp-disc 	Обнаружение точки встречи (Rendezvous Point Discovery, RP-DISC) для служб групповой рассылки, независящих от протокола (Protocol Independent Multicast, PIM)
+500 	isakmp 	Протокол сопоставления безопасности и управления ключами в Интернете (Internet Security Association and Key Management Protocol, ISAKMP)
+535 	iiop 	Протокол взаимодействия ORB по Интернету (Internet Inter-Orb Protocol, IIOP)
+538 	gdomap 	Сопоставитель распределённых объектов GNUstep (GDOMAP)
+546 	dhcpv6-client 	Протокол динамической конфигурации узлов (DHCP) версии 6
+547 	dhcpv6-server 	Протокол динамической конфигурации узлов (DHCP) версии 6
+554 	rtsp 	Протокол управления потоком в реальном времени (Real Time Stream Control Protocol, RTSP)
+563 	nntps 	NNTP поверх SSL (NNTPS)
+565 	whoami 	список кодов пользователей whoami
+587 	submission 	Агент представления почтовых сообщений (Mail Message Submission Agent, MSA)
+610 	npmp-local 	Сетевой протокол управления периферией (Network Peripheral Management Protocol, NPMP) / Система распределённых очередей (Distributed Queueing System, DQS)
+611 	npmp-gui 	Сетевой протокол управления периферией (Network Peripheral Management Protocol, NPMP) / Система распределённых очередей (Distributed Queueing System, DQS)
+612 	hmmp-ind 	Сигнализация протокола управления гипермедиа (HyperMedia Management Protocol, HMMP) / DQS
+631 	ipp 	Протокол печати через Интернет (Internet Printing Protocol, IPP)
+636 	ldaps 	LDAP поверх SSL (LDAPS)
+674 	acap 	Протокол доступа к конфигурации приложения (Application Configuration Access Protocol, ACAP)
+694 	ha-cluster 	Службы генерации импульсов для кластеров с высокой-степенью доступности
+749 	kerberos-adm 	Администрирование базой данных kadmin протокола Kerberos версии 5 (v5)
+750 	kerberos-iv 	Службы Kerberos версии 4 (v4)
+765 	webster 	Сетевой словарь
+767 	phonebook 	Сетевая телефонная книга
+873 	rsync 	Службы передачи данных rsync
+992 	telnets 	Telnet поверх SSL (TelnetS)
+993 	imaps 	IMAP поверх SSL (IMAPS)
+994 	ircs 	IRC поверх SSL (IRCS)
+995 	pop3s 	POP 3 поверх SSL (POP3S) 
