@@ -95,7 +95,7 @@ def scan_ip_range(ip_address_range, port_range):
     result_text.delete(1.0, tk.END)  
     open_ports = set()
     for ip in ip_address_range:
-        if scan_ip_http(ip) or scan_ip_https(ip):
+        if True: #scan_ip_http(ip) or scan_ip_https(ip):
             open_ports_ip = []
             for port in port_range:
                 if scan_port(ip, port):
@@ -199,7 +199,7 @@ def analyse_results():
 
     results = []
     for line in scan_text.split("\n"):
-        if "Services" in line or "IP" in line:
+        if "Services" in line or "IP" in line or "No" in line:
             break
         if line:
             ip, ports = line.split(":")
@@ -265,6 +265,10 @@ def analyse_results():
         statistics_text.insert(tk.END, f"IP: {result['ip']}\n")
         statistics_text.insert(tk.END, f"Open Ports: {result['open_ports']}\n")
         statistics_text.insert(tk.END, "\n")
+
+    with open("log.txt", "w", encoding="UTF-8") as f:
+        f.write(scan_text)
+        f.write(host_text)
 
 
 root = tk.Tk()
